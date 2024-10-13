@@ -62,7 +62,7 @@
     ```
 6. Запустите приложение:
     ```bash
-    python get_submission.py --src .\src\data\audio\test_files\ --dst . --metrics true
+    python get_submission.py --src .\src\data\audio\test_files\ --dst .
     ```
 ## Дополнительная информация
 `get_submission.py` поддерживает следующие параметры:
