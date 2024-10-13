@@ -1,0 +1,19 @@
+[project]
+name = "project_example"
+version = "1.0.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "name_example", email = "email@example.com"},
+]
+dependencies = [
+    "librosa==0.10.0.post2",
+    "pydub==0.23.1",
+    "soundfile==0.12.1",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false

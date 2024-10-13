@@ -1,0 +1,9 @@
+jiwer==3.0.4
+librosa==0.10.2.post1
+matplotlib==3.9.2
+noisereduce==3.0.3
+numpy==2.1.2
+scikit_learn==1.5.2
+scipy==1.14.1
+sounddevice==0.5.1
+tensorflow==2.17.0
