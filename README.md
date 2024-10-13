@@ -62,10 +62,10 @@
     ```
 6. Запустите приложение:
     ```bash
-    python get_submissions.py --src .\src\data\audio\test_files\ --dst . --metrics true
+    python get_submission.py --src .\src\data\audio\test_files\ --dst . --metrics true
     ```
 ## Дополнительная информация
-`get_submissions.py` поддерживает следующие параметры:
+`get_submission.py` поддерживает следующие параметры:
 - --src определяет источник входных данных
 - --dst определяет папку для вывода
 - --metrics true/false определяет необходимо ли замерять метрики
