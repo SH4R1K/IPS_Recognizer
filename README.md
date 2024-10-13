@@ -48,11 +48,19 @@
     ```bash
     pip install -r requirements.txt
     ```
-3. Запустите обучение модели:
+3. Перейдите в папку с файлом обучения модели:
     ```bash
-    python src/model_teach.py
+    cd src
+    ```
+4. Запустите обучение модели:
+    ```bash
+    python model_teach.py
    ```
-4. Запустите приложение:
+5. Вернитесь в предыдущую директорию:
+    ```bash
+    cd ..
+    ```
+6. Запустите приложение:
     ```bash
     python get_submissions.py --src .\src\data\audio\test_files\ --dst . --metrics true
     ```
