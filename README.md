@@ -41,22 +41,26 @@
 ## **Установка и запуск проекта**
 
 1. Клонируйте репозиторий:
-    \`\`\`bash
+    ```bash
     git clone https://github.com/SH4R1K/IPS_Recognizer.git
-    \`\`\`
+    ```
 2. Установите зависимости:
-    \`\`\`bash
+    ```bash
     pip install -r requirements.txt
-    \`\`\`
+    ```
 3. Запустите обучение модели:
-    \`\`\`bash
+    ```bash
     python src/model_teach.py
-    \`\`\`
+   ```
 4. Запустите приложение:
-    \`\`\`bash
+    ```bash
     python get_submissions.py --src .\src\data\audio\test_files\ --dst . --metrics true
-    \`\`\`
-
+    ```
+## Дополнительная информация
+`get_submissions.py` поддерживает следующие параметры:
+- --src определяет источник входных данных
+- --dst определяет папку для вывода
+- --metrics true/false определяет необходимо ли замерять метрики
 ---
 
 ## **Планы на будущее**
